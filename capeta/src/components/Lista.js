@@ -1,14 +1,13 @@
 import React from "react";
+import Iteml from "./ItemLista";
 
 const Lista = () => {
     return (
     <>
         <h1>Teste</h1>
-        <ul>
-            <li>pablo</li>
-            <li>miguel</li>
-            <li>pedro</li>
-        </ul>
+            <ul>
+                <Iteml nome='Iteml 1'/>
+            </ul>
 
     </>
     );

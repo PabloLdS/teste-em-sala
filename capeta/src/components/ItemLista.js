@@ -1,5 +1,7 @@
-import Iteml from "Iteml"
-const Iteml = (nome) => {
+import React from "react";
+
+
+const Iteml = ({nome}) => {
     return (<>
         <li>{nome}</li>
     </>)
